@@ -1,0 +1,49 @@
+.about{
+    margin: 40px 0;
+    padding: 0 30px;
+}
+.about h1{
+    font-size: 35px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px 0;
+}
+.about-btn button{
+    padding: 8px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    background-color: rgb(81, 34, 253);
+    color: white;
+    border-radius: 5px;
+    margin: 8px;
+    border:  none;
+}
+.about-btn button:hover{
+    background-color: rgb(130, 89, 245);
+    transition: 0.5s;
+}
+.about p{
+    border: 2px solid #1eaeff;
+    color: white;
+    padding: 20px;
+    margin: 10px 0;
+    font-size: 20px;
+    background-color: rgb(35, 94, 132);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+@media screen and (max-width:526px) {
+    .about{
+        height: 80vh;
+    }
+    .about p{
+        font-size: 17px;
+        padding: 10px;
+    }
+}
+@media screen and (max-width:434px) {
+    .about p{
+        font-size: 16px;
+        padding: 6px;
+    }
+}
