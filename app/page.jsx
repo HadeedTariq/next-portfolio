@@ -1,10 +1,10 @@
 import {  Home } from '../Components';
-export const metadata={
-  title:"Personal Portfolio"
-}
 function App() {
   return (
     <>
+      <head>
+        <title>Personal Portfolio</title>
+      </head>
       <Home/>
     </>
   );
