@@ -17,8 +17,8 @@ const ProjectData=[
         projectName:'Ecommerce Store',
         projectImage:project9,
         id:date.getTime(),
-        link:"https://vercel.com/hadeedtariq/next-portfolio",
-        git:"https://github.com/HadeedTariq/next-portfolio"
+        link:"https://vercel.com/hadeedtariq/next-ecommerce",
+        git:"https://github.com/HadeedTariq/next-ecommerce"
     },
     {
         projectName:'Blogging System',
