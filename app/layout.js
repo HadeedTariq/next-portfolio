@@ -1,13 +1,7 @@
-'use client'
-import { createContext, useState } from "react"
+import { ContextProvider } from '@/context/store'
 import './globals.css'
 import { Button, NavBar } from "@/Components"
-export const Global = createContext()
 export default function RootLayout({ children }) {
-  const [color, setColor] = useState({
-    backgroundColor: "rgb(8,8,25)",
-    color: "white"
-  })
   return (
     <html lang="en">
       <head>
@@ -17,16 +11,14 @@ export default function RootLayout({ children }) {
         <link rel="manifest" href="./site.webmanifest" />
       </head>
       <body>
-        <Global.Provider value={{ color: color, setColor: setColor }}>
-          <div className="app" style={color}>
+        <ContextProvider>
             <NavBar />
             <Button />
             <div className="home">
               {children}
             </div>
-          </div>
-        </Global.Provider>
+        </ContextProvider>
       </body>
-      </html>
+    </html>
   )
 }

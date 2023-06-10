@@ -1,9 +1,10 @@
 'use client'
 import React,{useContext, useState} from 'react'
 import '../Css/Home.css'
-import { Global } from '@/app/layout'
+import { useProvider } from '@/context/store'
+
 function Button() {
-  let {color,setColor}=useContext(Global)
+  let {color,setColor}=useProvider()
   let [position,setPosition]=useState({
     left:"55%"
   })
