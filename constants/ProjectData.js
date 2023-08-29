@@ -18,7 +18,7 @@ const ProjectData = [
     projectName: "Nike Clone",
     projectImage: project8,
     id: date.getTime(),
-    link: "https://sweet-paletas-c65785.netlify.app/",
+    link: "https://nike-web-clone.netlify.app/",
     git: "https://github.com/HadeedTariq/nike-clone",
   },
   {

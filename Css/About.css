@@ -34,9 +34,10 @@
   background: linear-gradient(
     90deg,
     rgba(122, 58, 250, 1) 0%,
-    rgba(29, 207, 253, 1) 50%,
+    rgba(29, 143, 253, 1) 50%,
     rgba(69, 122, 252, 1) 100%
   );
+
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
