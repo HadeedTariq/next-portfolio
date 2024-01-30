@@ -11,7 +11,12 @@ const BlogContent = ({ content }: BlogContentProps) => {
     <>
       <MDEditor.Markdown
         source={content}
-        style={{ whiteSpace: "pre-wrap", paddingLeft: "12px" }}
+        style={{
+          whiteSpace: "pre-wrap",
+          paddingLeft: "12px",
+          backgroundColor: "black",
+          color: "white",
+        }}
       />
     </>
   );
