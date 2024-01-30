@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import AdminProvider from "./_components/AdminProvider";
 import AdminSideBar from "./_components/AdminSideBar";
 
