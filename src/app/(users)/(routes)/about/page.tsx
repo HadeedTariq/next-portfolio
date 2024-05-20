@@ -13,37 +13,39 @@ const font = Average_Sans({
 });
 const AboutPage = () => {
   return (
-    <div className="p-6 text-[23px]">
+    <div className="p-6 min-[600px]:mx-4 text-[23px]">
       <h1
-        className={`text-4xl ${aclonia.className} font-bold mb-4 text-purple-400`}>
+        className={`text-4xl ${aclonia.className} font-bold mb-4 text-purple-500`}>
         About Me
       </h1>
 
       <p className={`mb-4 ${font.className}`}>
         Hello there! I&apos;m a{" "}
-        <span className="text-pink-400">MERN stack developer</span> with{" "}
-        <span className="text-pink-400">1.5 years of learning experience</span>,
-        currently pursuing my BS IT degree from a government college.
+        <span className="text-purple-500">MERN stack developer</span> with{" "}
+        <span className="text-purple-500">
+          1.75 years of learning experience
+        </span>
+        , currently pursuing my BS IT degree from a government college.
       </p>
 
       <p className={`mb-4 ${font.className}`}>
-        I have <span className="text-green-500">expertise</span> in both
+        I have <span className="text-purple-500">expertise</span> in both
         frontend and backend development. I&apos;ve successfully created many
         complex projects and implemented numerous{" "}
-        <span className="text-green-500">REST APIs</span>. My experience
+        <span className="text-purple-500">REST APIs</span>. My experience
         includes working with{" "}
-        <span className="text-yellow-500">NoSQL databases</span> like{" "}
-        <span className="text-yellow-500">MongoDB</span> and{" "}
-        <span className="text-yellow-500">Firebase Firestore</span>.
+        <span className="text-purple-500">NoSQL databases</span> like{" "}
+        <span className="text-purple-500">MongoDB</span> and{" "}
+        <span className="text-purple-500">Firebase Firestore</span>.
       </p>
 
       <p className={`mb-4 ${font.className}`}>
         Additionally, I am familiar with various{" "}
-        <span className="text-pink-400 mx-2">React libraries</span> and
+        <span className="text-purple-500 mx-2">React libraries</span> and
         frameworks, including{" "}
-        <span className="text-pink-400 mx-2">Next.js</span>. If you are hiring
+        <span className="text-purple-500 mx-2">Next.js</span>. If you are hiring
         or looking for a
-        <span className="text-red-500 mx-2">full-stack developer</span> then
+        <span className="text-purple-500 mx-2">full-stack developer</span> then
         consider hiring me for my passion and skills in web development.
       </p>
     </div>

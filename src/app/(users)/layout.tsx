@@ -8,11 +8,11 @@ interface HomeProps {
 const HomeLayout = ({ children }: HomeProps) => {
   return (
     <>
-      <div className="flex max-[600px]:gap-0 min-[600px]:gap-2 relative min-h-[100vh]">
+      <div className="flex w-full relative min-h-[100vh] overflow-hidden">
         <div className="h-full max-[600px]:h-[50px] min-[600px]:w-[60px] relative">
           <SideBar />
         </div>
-        {children}
+        <div className="my-[23px] px-2 w-full">{children}</div>
       </div>
     </>
   );

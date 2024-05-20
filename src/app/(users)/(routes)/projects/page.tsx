@@ -6,8 +6,8 @@ const ProjectPage = async () => {
   const projects = await getProjects();
   if (!projects) return;
   return (
-    <div className="grid grid-cols-3 gap-3 mx-auto max-[830px]:grid-cols-2 mb-20 max-[530px]:grid-cols-1">
-      {projects?.map((project) => (
+    <div className="grid grid-cols-3 items-center gap-3  max-[600px]:mt-[23px] max-[830px]:grid-cols-2 mb-20 max-[530px]:grid-cols-1">
+      {projects?.reverse().map((project) => (
         <ProjectCard key={project._id} project={project} />
       ))}
     </div>

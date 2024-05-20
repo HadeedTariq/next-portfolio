@@ -10,7 +10,7 @@ const fira = Fira_Code({
 });
 const HomePage = () => {
   return (
-    <div className="flex flex-col min-[600px]:w-[80%] max-[600px]:w-[100%] max-[600px]:px-2  min-[600px]:px-6 justify-center gap-2">
+    <div className="my-auto h-full flex flex-col min-[600px]:w-[80%] max-[600px]:w-[100%] max-[600px]:px-2  min-[600px]:px-6 justify-center gap-2">
       <h1 className="gap-3">
         <span className="text-[28px] font-semibold mr-2">Skills and Stack</span>
         <TypeEffect />

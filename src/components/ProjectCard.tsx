@@ -11,12 +11,16 @@ interface ProjectCradProps {
 
 const ProjectCard = ({ project }: ProjectCradProps) => {
   return (
-    <div className="rounded-lg shadow transition hover:shadow-lg dark:shadow-gray-700/25 cursor-pointer flex flex-col items-center gap-2 bg-indigo-800 pb-2 m-2">
+    <div className="rounded-lg shadow transition hover:shadow-lg dark:shadow-gray-700/25 cursor-pointer flex flex-col items-center gap-2 bg-zinc-800 pb-2 m-2 ">
       <Image
         src={project.projectImage}
         alt="project"
-        width={300}
-        height={300}
+        loading="lazy"
+        layout="reponsive"
+        objectFit="cover"
+        width={500}
+        height={340}
+        className="min-[530px]:h-[200px]"
       />
 
       <h3 className="mt-0.5 text-lg text-gray-900 dark:text-white">
