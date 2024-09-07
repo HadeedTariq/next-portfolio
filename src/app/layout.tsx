@@ -33,6 +33,7 @@ export default function RootLayout({
           href="/favicon-16x16.png"
         />
         <link rel="manifest" href="/site.webmanifest" />
+        <script defer src="https://cloud.umami.is/script.js" data-website-id="939d398a-c5c4-458e-940f-1257ac7ca2a6"></script>
       </head>
       <body className="dark">
         <Toaster />
